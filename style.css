@@ -1,0 +1,29 @@
+.card {
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.card:nth-child(odd) {
+    background-color: blue;
+}
+.card:nth-child(even) {
+    background-color: rgb(0, 183, 255);
+}
+.slider-container {
+    width: 80%;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.inner-slider {
+    width: 150%;
+    display: flex;
+    gap: 10px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
